@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape Up Or Shape Out Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="shapesoutputarea"></div>
+    <div id="info-panel">
+        <div class="info-div">Shape Name:<span id="shape-name-info"></span></div>
+        <div class="info-div">Width:<span id="shape-width-info"></span></div>
+        <div class="info-div">Height:<span id="shape-height-info"></span></div>
+        <div class="info-div">Radius:<span id="shape-radius-info"></span></div>
+        <div class="info-div">Area:<span id="shape-area-info"></span></div>
+        <div class="info-div">Perimeter:<span id="shape-perimeter-info"></span></div>
+    </div>
+    <div id="shapesinputarea">
+        <form>
+            <input class="btn" id="squarebtn" type="submit" value="Insert Square!" />
+            <div>
+                <input type="number" class="textareas" id="squarewidth" min="0" placeholder="width" />
+                <input type="number" class="textareas" id="squareheight" min="0" placeholder="height" />
+            </div>
+            </br>
+            <input class="btn" id="rectanglebtn" type="submit" value="Insert Rectangle!" />
+            <div>
+                <input type="number" class="textareas" id="rectanglewidth" min="0" placeholder="width" />
+                <input type="number" class="textareas" id="rectangleheight" min="0" placeholder="height" />
+            </div>
+            </br>
+            <input class="btn" id="circlebtn" type="submit" value="Insert Circle!" />
+            <div>
+                <input type="number" class="textareas" id="circleradius" min="0" placeholder="radius" />
+            </div>
+            </br>
+            <input class="btn" id="trianglebtn" type="submit" value="Insert Triangle!" />
+            <div>
+                <input type="number" class="textareas" id="triangleheight" min="0" placeholder="height" />
+            </div>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

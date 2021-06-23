@@ -1,0 +1,156 @@
+ body {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+    background-color: plum;
+}
+
+#shapesinputarea {
+  display: flex;
+
+  justify-content: center;
+  background-color: rgba(106, 255, 86, 0.671);
+  height: 450px;
+  width: 350px;
+  margin: 115px 75px 75px 75px;
+  border: 4px groove rgb(245, 45, 45);
+  border-radius: 15%;
+  
+}
+#shapesoutputarea {
+  position: relative;
+  background-color: paleturquoise;
+  height: 600px;
+  width: 600px;
+  margin: 30px 55px;
+  border: 4px groove coral;
+  overflow: hidden;
+}
+
+#info-panel {
+  font-size: 1.2em;
+  height: 450px;
+  width: 350px;
+  background-color: green;
+}
+
+.textareas {
+  background-color: rgba(255, 253, 106, 0.726);
+  color: rgba(231, 0, 0, 0.596);
+ 
+} 
+
+form {
+ justify-content: center;
+ margin: 5px;
+ 
+ padding: 15px;
+}
+
+.btn {
+  color:rgba(231, 255, 14, 0.959);
+  background-color:rgba(247, 47, 47, 0.746);
+  padding: 5px;
+  border-radius: 75%;
+  margin: 5px;
+}
+
+#squarebtn {
+  margin-top: 14px;
+  border: 4px groove magenta;
+  }
+
+#rectanglebtn {
+  border: 4px groove rgb(255, 0, 0);
+}
+
+#circlebtn {
+  margin-top: 14px;
+  margin-left: 10px;
+  border: 4px groove cornflowerblue;
+}
+
+#trianglebtn {
+  border: 4px groove green;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+#circleradius {
+  border: 4px groove purple;
+}
+#triangleheight {
+  border: 4px groove coral;
+}
+#squareheight {
+  border: 4px groove greenyellow;
+}
+#rectanglewidth {
+  border: 4px groove hotpink;
+}
+#squarewidth {
+  border: 4px groove blueviolet;
+}
+#rectangleheight {
+  border: 4px groove rgb(236, 208, 52);
+}
+
+.shape {
+  position: absolute;
+}
+
+span {
+  height: 50px;
+  width: 100px;
+}
+
+.info-div {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  background-color: yellow;
+  border: 4px groove hotpink;
+  border-radius: 5%;
+}
+
+#shape-name-info{
+  background-color: coral;
+  border: 4px groove greenyellow;
+  border-radius: 5%;
+
+  width: 100%;
+}
+#shape-width-info{
+  background-color: coral;
+  border-radius: 5%;
+  border: 4px groove greenyellow;
+ 
+  width: 100%;
+}
+#shape-height-info{
+  background-color: coral;
+  border-radius: 5%;
+  border: 4px groove greenyellow;
+ 
+  width: 100px;
+}
+#shape-radius-info{
+  background-color: coral;
+  border-radius: 5%;
+  border: 4px groove greenyellow;
+  height: 50px;
+  width: 100px;
+}
+#shape-area-info{
+  background-color: coral;
+  border: 4px groove greenyellow;
+  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+} 
+#shape-perimeter-info{
+  background-color: coral;
+  border: 4px groove greenyellow;
+  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+}
